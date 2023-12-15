@@ -1,4 +1,4 @@
-![Screenshot (60)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/ab377d10-d076-4555-b6f3-2a3c5476aa0d)# Student Project Management System
+# Student Project Management System
 
 The Student Project Management System empowers students to propose, update, and withdraw project submissions, contributing to a dynamic project marketplace. Mentors gain visibility into all student-entered projects, fostering collaboration and guidance. Implemented in Go with Gin framework and SQL, the system showcases CRUD operations, real-time collaboration, and seamless database integration.
 
