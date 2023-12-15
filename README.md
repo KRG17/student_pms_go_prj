@@ -31,7 +31,8 @@ The project utilizes a MySQL database to store information about student project
 
 ## Database Setup
 
-To run the MySQL database locally as a Docker container, use the following command:
+- To run the MySQL database locally as a Docker container, use the following command:
+  
 ![Screenshot (60)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/07fd2a83-d48d-4755-a8ce-a51a3835bcf8)
 
 ```bash
