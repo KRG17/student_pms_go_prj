@@ -6,55 +6,47 @@ The Student Project Management System empowers students to propose, update, and 
 
 ## 1.🚀 GET Request
 - Get all the projects
-  
-![Screenshot (54)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/2c857c84-78a7-4187-8a43-f4e8a4aaca97)
+  ![Screenshot (54)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/59c15d0c-da5a-4364-80e0-2811e857b5ea)
 
 ## 2.➕ POST Request
 - Add a new project
-  
-![Screenshot (55)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/bf3d7ff1-1b26-42ad-8261-c218b8be34f5)
+  ![Screenshot (55)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/4e2c85ef-75a2-4af9-982c-0b13a3a3a520)
 
 - After adding a new project
-  
-![Screenshot (61)](https://github.com/KRG17/zopsmart_GoFr_api_project/assets/109519365/9d510ac9-387d-4374-8191-80e351e2e0b6)
+  ![Screenshot (56)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/f7fe27ac-0c41-459a-8445-626ed6c3ddf9)
+
 
 ## 3.🔄 PUT Request
 - Updates an existing project
-  
-![Screenshot (57)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/0856901a-ac23-461c-96b7-5d76bc63ac4b)
+![Screenshot (57)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/49dfb097-0c9b-41ca-877f-10267272b9d0)
 
 ## 4.🗑️ DELETE Request
 - Deletes an existing project
-  
-![Screenshot (58)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/e1855310-f7e9-4eb1-ac26-50f88c901faa)
+![Screenshot (58)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/7faecf19-4dc8-41b5-ba36-f4242d8d8caf)
 
 # UML Diagrams
 - Use Case Diagram
+  ![usecase-diagram-student-pms](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/33158205-590e-4ac3-bfaa-00a36553dab4)
   
-  ![usecase-diagram-student-pms](https://github.com/KRG17/zopsmart_GoFr_api_project/assets/109519365/280269b1-95b6-4d2b-92e7-8ce82d5b35f2)
-
 - Class Diagram
-  
-  ![class-diagram-student-pms2](https://github.com/KRG17/zopsmart_GoFr_api_project/assets/109519365/c5ad5c2b-a6a9-4bae-9bd6-b246b4f30db6)
+  ![class-diagram-student-pms](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/9501eb1a-962b-4d2e-9401-cfe371f2d22a)
 
 - Sequence Diagram
-  
-  ![sequence-diagram-student-pms2](https://github.com/KRG17/zopsmart_GoFr_api_project/assets/109519365/1bf83ef4-95e8-4401-8a64-ed9e4f8ee90e)
+ ![sequence-diagram-student-pms](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/c63ac020-c8ae-4429-92fa-0970bb4781ed)
 
 # Database 🛢️
 
 The project utilizes a MySQL database to store information about student projects. The MySQL database is set up as a Docker container for easy deployment and management.
 
 ## Database Schema 🗃️
-
 - Table: `projects`
   - Columns: `id` (int), `name` (varchar), `description` (text)
-![Screenshot (59)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/d68758bb-1dc6-49c1-8bff-c2f1b02e0dda)
+![Screenshot (59)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/a231f36d-7303-4730-ba43-e3fd51f2d576)
 
 
 ## Database Setup 🐳
 - Docker Container
-![Screenshot (60)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/07fd2a83-d48d-4755-a8ce-a51a3835bcf8)
+![Screenshot (60)](https://github.com/KRG17/zopsmart_go_prj/assets/109519365/58c84e1d-d7e1-46c3-84e0-64cf03dbac8a)
 
 - To run the MySQL database locally as a Docker container, use the following command:
 ```bash
